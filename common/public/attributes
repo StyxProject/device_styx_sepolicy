@@ -1,3 +1,4 @@
 # HALs
 hal_attribute_lineage(lineage_camera_motor)
 hal_attribute_lineage(lineage_fod)
+hal_attribute_lineage(lineage_powershare)
