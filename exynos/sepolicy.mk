@@ -10,14 +10,14 @@ endif
 endif
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/custom/sepolicy/exynos/private
+    device/potato/sepolicy/exynos/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/custom/sepolicy/exynos/dynamic \
-    device/custom/sepolicy/exynos/system
+    device/potato/sepolicy/exynos/dynamic \
+    device/potato/sepolicy/exynos/system
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/custom/sepolicy/exynos/dynamic \
-    device/custom/sepolicy/exynos/vendor
+    device/potato/sepolicy/exynos/dynamic \
+    device/potato/sepolicy/exynos/vendor
 endif
